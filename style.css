@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    background-color: black;
+    /* color: white; */
 }
 
 .main {
-    background-image: url(Assets/Images/bg.jpg);
+    background-image: url(Assets/Images/acbg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1500px, 100vw);
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     position: relative;
     top: 0;
@@ -16,7 +23,7 @@
 
 .main .box {
     opacity: 0.6;
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-color: black;
     position: absolute;
@@ -41,4 +48,94 @@ nav img {
 nav button {
     position: relative;
     z-index: 10;
+}
+
+.mtext {
+    font-family: 'Martel Sans', sans-serif;
+    height: 70%;
+    width: 54%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 23px;
+
+}
+.mtext> :first-child{
+    font-weight: 900;
+    font-size: 53px;
+    text-align: center;
+}
+.mtext> :nth-child(2){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.mtext> :nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+.lb{
+    background-color: transparent;
+    color: white;
+    padding: 5px 15px;
+    font-weight: 600;
+    border: 0.1px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+    /* border: none; */
+}
+.lb .lgb{
+    background-position: center center;
+    width: 12px;
+    padding: 0 10px 0px 0px;
+}
+.sb{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.dd{
+    width: 20px;
+    margin-top: -7px;
+    margin-bottom: -5px;
+}
+.mail input{
+    width: 300px;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.6;
+    border: 0.1px solid grey;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: white;
+    font-size: 15px;
+}
+.gb{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.gb img{
+    width: 20px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    scale: 1.5;
 }
