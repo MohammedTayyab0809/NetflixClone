@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(Assets/Images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px, 100vw);
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+.main .box {
+    opacity: 0.6;
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 77vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 95px;
+}
+
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
