@@ -13,8 +13,8 @@ Project Structure
 netflix-clone/
 ├── index.html
 ├── style.css
-└── README.md
+├── README.md
 Notes
 This project is static and does not include functionality like video playback or authentication
 It is built only for learning and practice purposes
-Not affiliated with Netflix
+<b>Not affiliated with Netflix</b>
