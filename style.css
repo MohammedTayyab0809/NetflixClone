@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'poppins', sans-serif;
 }
+
 body {
     background-color: black;
     /* color: white; */
@@ -66,23 +67,27 @@ nav button {
     padding: 23px;
 
 }
-.mtext> :first-child{
+
+.mtext> :first-child {
     font-weight: 900;
     font-size: 53px;
     text-align: center;
 }
-.mtext> :nth-child(2){
-    font-weight: 400;
+
+.mtext> :nth-child(2) {
+    font-weight: 700;
     font-size: 20px;
     text-align: center;
 }
-.mtext> :nth-child(3){
-    font-weight: 400;
+
+.mtext> :nth-child(3) {
+    font-weight: 700;
     font-size: 16px;
     margin-top: 20px;
     text-align: center;
 }
-.lb{
+
+.lb {
     background-color: transparent;
     color: white;
     padding: 5px 15px;
@@ -92,12 +97,14 @@ nav button {
     font-size: 15px;
     /* border: none; */
 }
-.lb .lgb{
+
+.lb .lgb {
     background-position: center center;
     width: 12px;
     padding: 0 10px 0px 0px;
 }
-.sb{
+
+.sb {
     background-color: red;
     color: white;
     border: none;
@@ -107,12 +114,14 @@ nav button {
     margin-left: 10px;
     font-size: 15px;
 }
-.dd{
+
+.dd {
     width: 20px;
     margin-top: -7px;
     margin-bottom: -5px;
 }
-.mail input{
+
+.mail input {
     width: 300px;
     padding: 20px;
     background-color: black;
@@ -120,22 +129,194 @@ nav button {
     border: 0.1px solid grey;
     border-radius: 5px;
 }
-input::placeholder{
+
+input::placeholder {
     color: white;
     font-size: 15px;
 }
-.gb{
+
+.gb {
     background-color: red;
     color: white;
     border: none;
-    padding: 15px 20px;
+    padding: 17px 20px;
     font-weight: 700;
     border-radius: 5px;
     font-size: 18px;
 }
-.gb img{
+
+.gb img {
     width: 20px;
     margin-top: -5px;
     margin-bottom: -5px;
     scale: 1.5;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(236, 236, 236);
+    bottom: 0;
+    position: absolute;
+}
+
+.trendingnow {
+    color: white;
+    margin: 0 80px 0 150px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.trending> :first-child {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.trendinglist {
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.trendinglist .listitem img {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.trendinglist .listitem span {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    border: 5px solid black;
+    z-index: -1;
+}
+
+.nxtbtn button {
+    width: 30px;
+    height: 100px;
+    background-color: rgba(106, 106, 106, 0.338);
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    scale: 1.5;
+    color: white;
+    cursor: pointer;
+    /* position: relative; */
+}
+
+.faqs {
+    color: white;
+    margin: 0 80px 0 150px;
+    padding-bottom: 20px;
+    /* display: flex; */
+    padding-top: 20px;
+}
+
+.faqs> :first-child {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+}
+
+.faqbox {
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: rgba(106, 106, 106, 0.338);
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-end {
+    /* text-align: center; */
+    color: white;
+    margin: 50px 80px 0 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ftspn {
+    font-size: 15px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.ftmail input {
+    width: 500px;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.6;
+    border: 0.1px solid grey;
+    border-radius: 5px;
+}
+
+.ftmail {
+    text-align: center;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 15px;
+}
+
+.ftgb {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 17px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.ftgb img {
+    width: 20px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    scale: 1.5;
+}
+
+.end {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    list-style: none;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+}
+
+.links a {
+    color: rgb(136, 136, 136);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.endtxt {
+    color: rgb(136, 136, 136);
+    font-size: 15px;
+    /* font-weight: 600; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.endtxt1{
+    margin-bottom: 50px;
 }
