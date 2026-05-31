@@ -18,7 +18,7 @@ body {
 .main {
     background-image: url(Assets/Images/acbg.jpg);
     background-position: center center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: max(1500px, 100vw);
     height: 80vh;
     width: 100%;
