@@ -1,4 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@media screen and (max-width: 768px) {
+
+    /* Prevent horizontal scrolling */
+    html,
+    body {
+        /* overflow-x: hidden; */
+        width: 100%;
+    }
+
+    /* Navbar */
+    nav {
+        max-width: 95%;
+        padding: 10px;
+        height: auto;
+    }
+
+    nav img {
+        width: 110px;
+    }
+
+    /* Hero section */
+    .main,
+    .main .box {
+        height: auto;
+        min-height: 90vh;
+    }
+
+    .mtext {
+        width: 95%;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .mtext>:first-child {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .mtext>:nth-child(2) {
+        font-size: 1rem;
+    }
+
+    .mtext>:nth-child(3) {
+        font-size: 0.9rem;
+    }
+
+    /* Email section */
+    .mail {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .mail input {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .gb {
+        width: 100%;
+    }
+
+    /* Trending section */
+    .trendingnow,
+    .faqs,
+    .footer-end {
+        margin: 20px;
+    }
+
+    .trendinglist {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .trendinglist .listitem img {
+        width: 200px;
+        height: auto;
+    }
+
+    .nxtbtn {
+        display: none;
+    }
+
+    /* FAQ */
+    .faqbox {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    /* Footer */
+    .ftspn {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ftmail {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ftmail input {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .ftgb {
+        width: 100%;
+    }
+
+    .links ul {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    /* Images */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .end {
+        align-items: center;
+    }
+}
+
 
 * {
     margin: 0;
@@ -263,7 +393,7 @@ input::placeholder {
     width: 500px;
     padding: 20px;
     background-color: black;
-    color:white;
+    color: white;
     opacity: 0.6;
     border: 0.1px solid grey;
     border-radius: 5px;
@@ -325,6 +455,7 @@ input::placeholder {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.endtxt1{
+
+.endtxt1 {
     margin-bottom: 50px;
 }
